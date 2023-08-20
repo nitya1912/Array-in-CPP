@@ -36,3 +36,19 @@ Use a for loop to read count numbers from the user and store them in the input a
 Output "Enter a number to search in Array: ".Read the user's input for num. ;**Search Loop**:Use a for loop to search for num within the input array.If num is found at index i, output "Element found at index: [i]" and break the loop. ;**Search Result Output**:If the loop completes without finding a match (if i reaches count), output "Element Not Present in Input Array". ;**End of Main Function**:Return 0 to indicate successful program execution.
 
 **END OF CODE-9**
+
+# Code-10
+
+# Title:
+This code calculates and outputs the largest and smallest elements from an array of 10 integers.
+
+# Theory:
+The code initializes an array with 10 integers and then iterates through it to find the largest and smallest elements. It outputs these results along with corresponding messages.
+
+# Algorithm:
+Algorithm includes: 1)Include necessary header files. ;2)Declare an integer array arr and initialize it. ;3)Declare integer variables max and min. ;4)Initialize max and min with the value of the first element in arr. ;5)Use a for loop to find the largest element (max) in the array. ;6)Use another for loop to find the smallest element (min) in the array. ;7)Output the largest and smallest elements. ;8)Return 0 to indicate successful program completion.
+
+# Explanation of Code:
+**Include Header Files**:Include the <iostream> header for input and output operations. ;**Namespace Declaration**:Use the using namespace std; declaration to avoid prefixing standard library elements with std::. ;**Main Function**:Define the main function where the program execution starts. ;**Array Declaration and Initialization**:Declare an integer array arr and initialize it with 10 integers. ;**Finding the Largest Element**:Declare an integer variable max and initialize it with the value of the first element in arr. ;**Use a for loop to iterate through the array**:If the current element is greater than max, update max with the current element's value. ;**Finding the Smallest Element**:Declare an integer variable min and initialize it with the value of the first element in arr.**Use another for loop to iterate through the array**:If the current element is smaller than min, update min with the current element's value. ;**Output Results**:Output "Largest element : [max]" to display the largest element found.Output "Smallest element : [min]" to display the smallest element found. ;**End of Main Function**:Return 0 to indicate successful program execution.
+
+**END OF CODE-9**
